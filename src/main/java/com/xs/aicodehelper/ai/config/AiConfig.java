@@ -1,6 +1,6 @@
-package com.xs.aicodehelper.ai;
+package com.xs.aicodehelper.ai.config;
 
-import com.alibaba.dashscope.common.ResponseFormat;
+import com.xs.aicodehelper.ai.PersistentChatMemoryStore;
 import dev.langchain4j.memory.ChatMemory;
 import dev.langchain4j.memory.chat.MessageWindowChatMemory;
 import org.springframework.context.annotation.Bean;
